@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatApp_LumbanKuizon.MainPage">
+
+    <StackLayout BackgroundColor="#ECECE4" Padding="20, 60, 20, 20">
+        <Image Source="logo_text.png" WidthRequest="125" Margin="0, 20,0, 30"/>
+
+        <Label Text="Hi There!" FontSize="Title" TextColor="#203c50" Margin="0, 10, 0, 0" ></Label>
+        <Label Text="Welcome back! Please enter your details." TextColor="#999" Padding="0,-5,0,20"/>
+
+        <Label Text="Email" TextColor="black"/>
+        <Entry x:Name="Email" Placeholder="Email" PlaceholderColor="#ccc" Keyboard="Email" TextColor="black" />
+
+        <Label Text="Password" TextColor="Black"/>
+        <Entry x:Name="Password" Placeholder="Password" PlaceholderColor="#ccc" IsPassword="True"  TextColor="black"/>
+        <Label Text="Forgot Password" TextColor="#3ea8a1" HorizontalOptions="EndAndExpand" Margin="0,5,0,0"/>
+
+        <Button Text="Sign In" BackgroundColor="#3ea8a1" HeightRequest="50"  CornerRadius="25" FontAttributes="Bold"/>
+        <Button Text="Create an Account" 
+                BorderWidth="1" 
+                BorderColor="#3ea8a1"
+                BackgroundColor="Transparent" 
+                TextColor="#3ea8a1"
+                HeightRequest="50"  
+                CornerRadius="25" 
+                FontAttributes="Bold"/>
+
+        <Grid>
+            <ImageButton Source="FacebookSignIn.png" HorizontalOptions="Start"  />
+            <ImageButton Source="GoogleSignIn.png" HorizontalOptions="End"  />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
