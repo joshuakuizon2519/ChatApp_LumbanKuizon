@@ -4,7 +4,8 @@
             x:Class="ChatApp_LumbanKuizon.Pages.TabbedMain"
             xmlns:local ="clr-namespace:ChatApp_LumbanKuizon.Pages"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-            android:TabbedPage.ToolbarPlacement="Bottom">
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BarBackgroundColor="#3ea8a1" SelectedTabColor="#f2b844" UnselectedTabColor="White">
 
     <local:ChatPage></local:ChatPage>
     <local:ProfilePage></local:ProfilePage>

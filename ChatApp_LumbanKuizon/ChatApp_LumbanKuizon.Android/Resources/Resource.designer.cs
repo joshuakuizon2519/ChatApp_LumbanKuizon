@@ -11823,6 +11823,9 @@ namespace ChatApp_LumbanKuizon.Droid
 			// aapt resource value: 0x7F07009B
 			public const int tooltip_frame_light = 2131165339;
 			
+			// aapt resource value: 0x7F07009C
+			public const int user = 2131165340;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

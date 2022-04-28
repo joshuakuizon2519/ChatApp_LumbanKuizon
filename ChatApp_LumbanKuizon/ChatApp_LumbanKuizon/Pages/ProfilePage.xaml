@@ -5,8 +5,10 @@
              Title="Profile" IconImageSource="ProfileIcon.png">
     
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#ECECE4">
-            <Image Source="Profilepic.png"/>
+        <StackLayout BackgroundColor="#ECECE4" Padding="15,60,15,15">
+            <Frame Margin="0" Padding="5" BackgroundColor="#3ea8a1" BorderColor="#328c86"  CornerRadius="100" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center">
+                <Image Source="user.png" />
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 

@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChatApp_LumbanKuizon.Pages.ChatPage"
-             Title="Chat" IconImageSource="ChatIcon.png">
+             Title="Chat" IconImageSource="chatIcon.svg ">
 
     <ContentPage.Content>
         <StackLayout BackgroundColor="#ECECE4">
-            <Label Text="Hello! Chat here"/>
+            <SearchBar Placeholder="Search items..." CancelButtonColor="#3ea8a1"
+                        PlaceholderColor="#999"
+                        TextColor="Black"
+                        TextTransform="Lowercase"
+                        FontAttributes="Italic" />
         </StackLayout>
     </ContentPage.Content>
 

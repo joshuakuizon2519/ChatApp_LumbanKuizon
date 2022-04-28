@@ -20,6 +20,7 @@ namespace ChatApp_LumbanKuizon
             var SignupPage = new ChatApp_LumbanKuizon.Pages.SignUp();
             await Navigation.PushAsync(SignupPage);
             NavigationPage.SetHasNavigationBar(SignupPage, false);
+            NavigationPage.SetHasBackButton(SignupPage, false);
         }
 
         private async void ToForgotPass(object sender, EventArgs e)
@@ -32,6 +33,7 @@ namespace ChatApp_LumbanKuizon
             var Main = new ChatApp_LumbanKuizon.Pages.TabbedMain();
             await Navigation.PushAsync(Main);
             NavigationPage.SetHasNavigationBar(Main, false);
+            NavigationPage.SetHasBackButton(Main, false);
         }
         async void OnTapGestureRecognizerTapped(object sender, EventArgs args)
         {
