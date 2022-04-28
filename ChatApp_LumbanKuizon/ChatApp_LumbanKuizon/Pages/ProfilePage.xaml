@@ -6,7 +6,7 @@
     
     <ContentPage.Content>
         <StackLayout BackgroundColor="#ECECE4">
-            <Label Text="Hello! Profile here"/>
+            <Image Source="Profilepic.png"/>
         </StackLayout>
     </ContentPage.Content>
 

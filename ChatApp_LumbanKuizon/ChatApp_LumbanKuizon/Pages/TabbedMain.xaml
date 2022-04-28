@@ -6,9 +6,6 @@
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.ToolbarPlacement="Bottom">
 
-    <!--Pages can be added as references or inline-->
-
-
     <local:ChatPage></local:ChatPage>
     <local:ProfilePage></local:ProfilePage>
 
