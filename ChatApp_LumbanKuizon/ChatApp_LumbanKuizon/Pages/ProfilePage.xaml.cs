@@ -16,5 +16,10 @@ namespace ChatApp_LumbanKuizon.Pages
         {
             InitializeComponent();
         }
+
+        private async void BacktoRoot(object sender, EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+        }
     }
 }

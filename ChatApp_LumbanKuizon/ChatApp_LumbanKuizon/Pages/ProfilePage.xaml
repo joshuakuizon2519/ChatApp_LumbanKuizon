@@ -7,8 +7,13 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="#ECECE4" Padding="15,60,15,15">
             <Frame Margin="0" Padding="5" BackgroundColor="#3ea8a1" BorderColor="#328c86"  CornerRadius="100" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center">
-                <Image Source="user.png" />
+                <Frame Margin="0" Padding="5" BackgroundColor="#f2b844" BorderColor="#e6a525"  CornerRadius="100" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center">
+                    <Frame Margin="0" Padding="0" BackgroundColor="#3ea8a1" BorderColor="#328c86"  CornerRadius="100" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center">
+                        <Image Source="user.png" />
+                    </Frame>
+                </Frame>   
             </Frame>
+            <Button Text="Sign out" Clicked="BacktoRoot"/>
         </StackLayout>
     </ContentPage.Content>
 
