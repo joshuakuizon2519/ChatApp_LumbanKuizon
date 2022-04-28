@@ -1168,3 +1168,5 @@ C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKu
 C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon.Android\obj\Debug\110\res\drawable\profileicon.png
+C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon.Android\obj\Debug\110\res\drawable\chaticon.png

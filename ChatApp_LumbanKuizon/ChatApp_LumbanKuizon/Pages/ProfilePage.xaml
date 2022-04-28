@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatApp_LumbanKuizon.Pages.ProfilePage"
+             Title="Profile" IconImageSource="ProfileIcon.png">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#ECECE4">
+            <Label Text="Hello! Profile here"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

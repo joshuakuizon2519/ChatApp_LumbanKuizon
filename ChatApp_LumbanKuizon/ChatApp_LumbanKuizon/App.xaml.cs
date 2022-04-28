@@ -10,7 +10,8 @@ namespace ChatApp_LumbanKuizon
         {
             InitializeComponent();
 
-             MainPage = new NavigationPage(new MainPage());
+             MainPage = new NavigationPage(new Login());
+
 
         }
 

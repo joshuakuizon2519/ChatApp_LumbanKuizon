@@ -3,20 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChatApp_LumbanKuizon.Pages.SignUp">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#ECECE4" Padding="20, 0, 20, 20">
+        <StackLayout BackgroundColor="#ECECE4" Padding="20, 15, 20, 20">
             <Image Source="logo_text.png" WidthRequest="125" Margin="0, 10,0, 10"/>
 
-            <Label Text="Username" TextColor="black"/>
+            <Label Text="Username" TextColor="black" FontAttributes="Bold"/>
             <Entry x:Name="Username" Placeholder="Username" PlaceholderColor="#ccc" Keyboard="Email" TextColor="black" />
 
-            <Label Text="Email" TextColor="black"/>
+            <Label Text="Email" TextColor="black" FontAttributes="Bold"/>
             <Entry x:Name="Email" Placeholder="Email" PlaceholderColor="#ccc" Keyboard="Email" TextColor="black" />
 
-            <Label Text="Password" TextColor="Black"/>
+            <Label Text="Password" TextColor="Black" FontAttributes="Bold"/>
             <Entry x:Name="Password" Placeholder="Password" PlaceholderColor="#ccc" IsPassword="True"  TextColor="black"/>
-            <Label Text="Confirm Password" TextColor="Black"/>
+            <Label Text="Confirm Password" TextColor="Black" FontAttributes="Bold"/>
             <Entry x:Name="ConfirmPassword" Placeholder="Confirm Password" PlaceholderColor="#ccc" IsPassword="True"  TextColor="black"/>
-            <Label Text="Forgot Password" TextColor="#3ea8a1" HorizontalOptions="EndAndExpand" Margin="0,5,0,0"/>
 
 
             <Button Text="Sign Up" BackgroundColor="#3ea8a1" HeightRequest="50"  CornerRadius="25" FontAttributes="Bold"/>

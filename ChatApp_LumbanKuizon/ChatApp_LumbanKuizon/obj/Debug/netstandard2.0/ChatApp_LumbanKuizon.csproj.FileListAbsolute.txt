@@ -29,3 +29,7 @@ C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKu
 C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\obj\Debug\netstandard2.0\ChatApp_LumbanKuizon.dll
 C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\obj\Debug\netstandard2.0\ref\ChatApp_LumbanKuizon.dll
 C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\obj\Debug\netstandard2.0\ChatApp_LumbanKuizon.pdb
+C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\obj\Debug\netstandard2.0\Pages\ForgotPassw.xaml.g.cs
+C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\obj\Debug\netstandard2.0\Pages\TabbedMain.xaml.g.cs
+C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\obj\Debug\netstandard2.0\Pages\ProfilePage.xaml.g.cs
+C:\Users\hp\Documents\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\obj\Debug\netstandard2.0\Pages\ChatPage.xaml.g.cs

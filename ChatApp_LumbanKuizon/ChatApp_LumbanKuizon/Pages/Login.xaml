@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ChatApp_LumbanKuizon.MainPage">
+             x:Class="ChatApp_LumbanKuizon.Login">
 
     <StackLayout Margin="0" BackgroundColor="#ECECE4" Padding="15, 10">
         <Grid>
@@ -14,20 +14,26 @@
             <StackLayout Margin="0,270,0,0">
                 <Label Text="Email" TextColor="black" FontAttributes="bold" />
                 <Entry x:Name="Email" Placeholder="Email" PlaceholderColor="#ccc" Keyboard="Email" TextColor="black" WidthRequest="30"/>
-                <Label Text="Password" TextColor="Black"/>
-                <Entry x:Name="Password" Placeholder="Password" PlaceholderColor="#ccc" IsPassword="True" TextColor="black"/>
-                <Button Text="Forgot Password" TextColor="#3ea8a1" HorizontalOptions="EndAndExpand" Margin="0,5,0,0" Clicked="ToForgotPass"/>
-                <StackLayout Orientation= "Vertical" BackgroundColor="Aqua" >
-                    <Button Text="Sign In" BackgroundColor="#3ea8a1" Padding="0" HeightRequest="50" MinimumWidthRequest="10" CornerRadius="25" FontAttributes="Bold"/>
+                <Label Text="Password" TextColor="Black" FontAttributes="bold"/>
+                <Entry x:Name="Password" Placeholder="Password" PlaceholderColor="#ccc" IsPassword="True" TextColor="black" />
+                <StackLayout Orientation= "Vertical" >
+                    <Label Text="Forgot Password" TextColor="#3ea8a1" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" Margin="0,5,0,0" Padding="0">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Tapped="OnTapGestureRecognizerTapped"
+                                NumberOfTapsRequired="1" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Button Text="Sign In" BackgroundColor="#3ea8a1" TextColor="White" Padding="0" HeightRequest="50" MinimumWidthRequest="10" CornerRadius="25" FontAttributes="Bold" Clicked="ToMain"/>
                     <Button Text="Create an Account" BorderWidth="1" Padding="0" BorderColor="#3ea8a1" BackgroundColor="#ECECE4" TextColor="#3ea8a1" HeightRequest="50"  
-                            CornerRadius="25" FontAttributes="Bold" Clicked="ToSignUp"/>
+                            CornerRadius="25" FontAttributes="Bold" Clicked="ToSignUp" />
                 </StackLayout>
-                
 
-                <Grid>
-                    <ImageButton Source="FacebookSignIn.png" HorizontalOptions="Start"  />
-                    <ImageButton Source="GoogleSignIn.png" HorizontalOptions="End"  />
-                </Grid>
+
+                <StackLayout Orientation="Horizontal" Padding="0,10,0,0">
+                    <ImageButton Source="FacebookSignIn.png" HorizontalOptions="CenterAndExpand"  />
+                    <ImageButton Source="GoogleSignIn.png" HorizontalOptions="CenterAndExpand"  />
+                </StackLayout>
             </StackLayout>
         </Grid>
         

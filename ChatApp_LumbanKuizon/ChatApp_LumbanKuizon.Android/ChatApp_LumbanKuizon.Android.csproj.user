@@ -4,5 +4,6 @@
     <SelectedDevice>Xiaomi Redmi 7</SelectedDevice>
     <ActiveDebugProfile>Xiaomi Redmi 7</ActiveDebugProfile>
     <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>
