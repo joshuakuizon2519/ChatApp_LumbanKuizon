@@ -14,5 +14,15 @@ namespace ChatApp_LumbanKuizon
         {
             InitializeComponent();
         }
+
+        private async void ToSignUp(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ChatApp_LumbanKuizon.Pages.SignUp());
+        }
+
+        private async void ToForgotPass(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ChatApp_LumbanKuizon.Pages.ForgotPassw());
+        }
     }
 }

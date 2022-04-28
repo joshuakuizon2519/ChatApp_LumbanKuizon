@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj": {}
+    "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj": {
+    "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
         "projectName": "ChatApp_LumbanKuizon.iOS",
-        "projectPath": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
+        "projectPath": "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj": {
-                "projectPath": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj"
+              "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj": {
+                "projectPath": "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj": {
+    "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj",
         "projectName": "ChatApp_LumbanKuizon",
-        "projectPath": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj",
+        "projectPath": "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
