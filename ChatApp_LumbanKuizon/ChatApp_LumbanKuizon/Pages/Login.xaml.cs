@@ -5,15 +5,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Text.RegularExpressions;
+using ChatApp_LumbanKuizon.Pages;
+using Xamarin.Forms.Xaml;
+
 
 namespace ChatApp_LumbanKuizon
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login : ContentPage
     {
         public Login()
         {
             InitializeComponent();
         }
+
 
         private async void ToSignUp(object sender, EventArgs e)
         {
@@ -30,10 +36,27 @@ namespace ChatApp_LumbanKuizon
 
         private async void ToMain(object sender, EventArgs e)
         {
-            var Main = new ChatApp_LumbanKuizon.Pages.TabbedMain();
-            await Navigation.PushAsync(Main);
-            NavigationPage.SetHasNavigationBar(Main, false);
-            NavigationPage.SetHasBackButton(Main, false);
+            var email = EntryEmail.Text;
+            var emailPattern = "^([\\w\\.\\-]+)@([\\w\\-]+)((\\.(\\w){2,3})+)$";
+            if (EntryEmail.Text == null && EntryPassword.Text == null)
+            {
+                await DisplayAlert("Error", "Missing Fields", "Okay");
+
+            }
+            else if(!String.IsNullOrWhiteSpace(email) && !(Regex.IsMatch(email, emailPattern)))
+            {
+                await DisplayAlert("Error", "Email not verified. Sent another verification email.", "Okay");
+            }
+            else
+            {
+                var Main = new ChatApp_LumbanKuizon.Pages.TabbedMain();
+                await Navigation.PushAsync(Main);
+                NavigationPage.SetHasNavigationBar(Main, false);
+                NavigationPage.SetHasBackButton(Main, false);
+            }
+
+                
+
         }
         async void OnTapGestureRecognizerTapped(object sender, EventArgs args)
         {
@@ -45,5 +68,6 @@ namespace ChatApp_LumbanKuizon
             }
         }
        
+
     }
 }

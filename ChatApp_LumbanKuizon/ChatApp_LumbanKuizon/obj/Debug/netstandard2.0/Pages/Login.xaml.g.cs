@@ -17,16 +17,20 @@ namespace ChatApp_LumbanKuizon {
     public partial class Login : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry Email;
+        private global::ChatApp_LumbanKuizon.RoundedEntry EntryEmail;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry Password;
+        private global::ChatApp_LumbanKuizon.RoundedEntry EntryPassword;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::ChatApp_LumbanKuizon.ShowPasswordTriggerAction ShowPasswordActualTrigger;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Login));
-            Email = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Email");
-            Password = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Password");
+            EntryEmail = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.RoundedEntry>(this, "EntryEmail");
+            EntryPassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.RoundedEntry>(this, "EntryPassword");
+            ShowPasswordActualTrigger = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.ShowPasswordTriggerAction>(this, "ShowPasswordActualTrigger");
         }
     }
 }

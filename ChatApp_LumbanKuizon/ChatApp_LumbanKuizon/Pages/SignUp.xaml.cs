@@ -21,5 +21,19 @@ namespace ChatApp_LumbanKuizon.Pages
         {
             await Navigation.PopToRootAsync();
         }
+
+        private async void SignedUp(object sender, EventArgs e)
+        {
+            if (SignUpUsername.Text == null || SignUpEmail.Text == null || SignUpPassword.Text == null || SignUpConfirmPassword.Text == null)
+            {
+                await DisplayAlert("Error", "Missing Fields", "Okay");
+
+            }
+            if (SignUpPassword.Text != SignUpConfirmPassword.Text)
+            {
+                await DisplayAlert("Error", "Passwords should Match", "Okay");
+            }
+        }
+
     }
 }

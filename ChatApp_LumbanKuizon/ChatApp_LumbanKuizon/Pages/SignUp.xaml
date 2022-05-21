@@ -1,24 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ChatApp_LumbanKuizon.Pages.SignUp">
+             x:Class="ChatApp_LumbanKuizon.Pages.SignUp"
+              xmlns:local ="clr-namespace:ChatApp_LumbanKuizon;assembly=ChatApp_LumbanKuizon"
+             >
     <ContentPage.Content>
         <StackLayout BackgroundColor="#ECECE4" Padding="20, 15, 20, 20">
             <Image Source="logo_text.png" WidthRequest="125" Margin="0, 10,0, 10"/>
 
             <Label Text="Username" TextColor="black" FontAttributes="Bold"/>
-            <Entry x:Name="Username" Placeholder="Username" PlaceholderColor="#ccc" Keyboard="Email" TextColor="black" />
+            <local:RoundedEntry x:Name="SignUpUsername" Placeholder="Username" PlaceholderColor="#ccc" TextColor="black" />
 
             <Label Text="Email" TextColor="black" FontAttributes="Bold"/>
-            <Entry x:Name="Email" Placeholder="Email" PlaceholderColor="#ccc" Keyboard="Email" TextColor="black" />
+            <local:RoundedEntry x:Name="SignUpEmail" Placeholder="Email" PlaceholderColor="#ccc" Keyboard="Email" TextColor="black" />
 
             <Label Text="Password" TextColor="Black" FontAttributes="Bold"/>
-            <Entry x:Name="Password" Placeholder="Password" PlaceholderColor="#ccc" IsPassword="True"  TextColor="black"/>
+            <Grid>
+                <local:RoundedEntry x:Name="SignUpPassword" Placeholder="Password" PlaceholderColor="#ccc" IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"  TextColor="black"/>
+                <ImageButton VerticalOptions="Center" HeightRequest="20" HorizontalOptions="End"
+                            Source="hide" Margin="10,10,10,10">
+                    <ImageButton.Triggers>
+                        <EventTrigger Event="Clicked">
+                            <local:ShowPasswordTriggerAction ShowIcon="show"
+                                                             HideIcon="hide"
+                                                             x:Name="ShowPasswordActualTrigger"/>
+                        </EventTrigger>
+                    </ImageButton.Triggers> 
+                </ImageButton>
+            </Grid>
             <Label Text="Confirm Password" TextColor="Black" FontAttributes="Bold"/>
-            <Entry x:Name="ConfirmPassword" Placeholder="Confirm Password" PlaceholderColor="#ccc" IsPassword="True"  TextColor="black"/>
+            <Grid>
+                <local:RoundedEntry x:Name="SignUpConfirmPassword" Placeholder="Confirm Password" PlaceholderColor="#ccc" IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"  TextColor="black"/>
+                <ImageButton VerticalOptions="Center" HeightRequest="20" HorizontalOptions="End"
+                            Source="hide" Margin="10,10,10,10">
+                    <ImageButton.Triggers>
+                        <EventTrigger Event="Clicked">
+                            <local:ShowPasswordTriggerAction ShowIcon="show"
+                                                             HideIcon="hide"
+                                                             x:Name="ShowPasswordActualTrigger2"/>
+                        </EventTrigger>
+                    </ImageButton.Triggers>
+                </ImageButton>
+            </Grid>
+            
 
 
-            <Button Text="Sign Up" BackgroundColor="#3ea8a1" HeightRequest="50"  CornerRadius="25" FontAttributes="Bold"/>
+            <Button Text="Sign Up" BackgroundColor="#3ea8a1" HeightRequest="50"  CornerRadius="25" FontAttributes="Bold" Clicked="SignedUp"/>
             <Button Text="Sign In to your Account" BorderWidth="1" BorderColor="#3ea8a1" BackgroundColor="#ECECE4" TextColor="#3ea8a1" HeightRequest="50"  
                 CornerRadius="25" FontAttributes="Bold" Clicked="ToLogin"/>
 

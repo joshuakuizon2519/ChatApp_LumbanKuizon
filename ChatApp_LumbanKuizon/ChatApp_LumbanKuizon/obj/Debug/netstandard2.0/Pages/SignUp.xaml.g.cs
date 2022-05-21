@@ -17,24 +17,32 @@ namespace ChatApp_LumbanKuizon.Pages {
     public partial class SignUp : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry Username;
+        private global::ChatApp_LumbanKuizon.RoundedEntry SignUpUsername;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry Email;
+        private global::ChatApp_LumbanKuizon.RoundedEntry SignUpEmail;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry Password;
+        private global::ChatApp_LumbanKuizon.RoundedEntry SignUpPassword;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry ConfirmPassword;
+        private global::ChatApp_LumbanKuizon.ShowPasswordTriggerAction ShowPasswordActualTrigger;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::ChatApp_LumbanKuizon.RoundedEntry SignUpConfirmPassword;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::ChatApp_LumbanKuizon.ShowPasswordTriggerAction ShowPasswordActualTrigger2;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SignUp));
-            Username = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Username");
-            Email = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Email");
-            Password = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Password");
-            ConfirmPassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "ConfirmPassword");
+            SignUpUsername = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.RoundedEntry>(this, "SignUpUsername");
+            SignUpEmail = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.RoundedEntry>(this, "SignUpEmail");
+            SignUpPassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.RoundedEntry>(this, "SignUpPassword");
+            ShowPasswordActualTrigger = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.ShowPasswordTriggerAction>(this, "ShowPasswordActualTrigger");
+            SignUpConfirmPassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.RoundedEntry>(this, "SignUpConfirmPassword");
+            ShowPasswordActualTrigger2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ChatApp_LumbanKuizon.ShowPasswordTriggerAction>(this, "ShowPasswordActualTrigger2");
         }
     }
 }
