@@ -991,26 +991,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
       "projectName": "ChatApp_LumbanKuizon.iOS",
-      "projectPath": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1022,8 +1017,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj": {
-              "projectPath": "C:\\Users\\hp\\Downloads\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj"
+            "C:\\Users\\User\\Documents\\GitHub\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.csproj"
             }
           }
         }
