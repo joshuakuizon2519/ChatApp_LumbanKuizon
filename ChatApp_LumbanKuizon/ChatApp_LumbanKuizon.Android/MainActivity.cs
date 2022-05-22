@@ -12,6 +12,8 @@ namespace ChatApp_LumbanKuizon.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            FirebaseApp.InitializeApp(this);
+
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
