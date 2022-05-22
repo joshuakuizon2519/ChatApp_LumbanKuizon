@@ -3,7 +3,11 @@ aotassemblies=false
 androidaddkeepalives=
 androidaotmode=none
 androidembedprofilers=
+<<<<<<< Updated upstream
 androidenableprofiledaot=
+=======
+androidenableprofiledaot=false
+>>>>>>> Stashed changes
 androiddextool=d8
 androidlinktool=
 androidlinkresources=
@@ -25,7 +29,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
+<<<<<<< Updated upstream
 _nugetassetstimestamp=637888558081085147
+=======
+_nugetassetstimestamp=637888194377289017
+>>>>>>> Stashed changes
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a

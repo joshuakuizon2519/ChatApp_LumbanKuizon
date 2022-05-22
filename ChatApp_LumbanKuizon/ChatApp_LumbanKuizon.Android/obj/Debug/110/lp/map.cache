@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 FormsViewGroup.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
@@ -87,6 +90,7 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+<<<<<<< Updated upstream
 =======
 Xamarin.Firebase.Annotations.dll
 Xamarin.Firebase.Auth.dll
@@ -138,3 +142,5 @@ Xamarin.GooglePlayServices.Auth.dll
 playservicesauthbase-17.1.4.aar
 playservicesauth-19.2.0.aar
 >>>>>>> 4f0250b67f36abaa20471158a239d727c47f98d3
+=======
+>>>>>>> Stashed changes
