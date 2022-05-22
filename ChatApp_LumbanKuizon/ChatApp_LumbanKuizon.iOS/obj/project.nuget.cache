@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pZ48WFcbDZA1vsSq1agtUuIH75Q/cczEII5lEJkOMHuNWcp5Jb3PgEqXPtfS15bIbmNGHwL1KdIYYxGJN8JMvQ==",
+  "dgSpecHash": "w2X2rAR2iZYP36+vw7LGs+1/6maX4eckMZ5VHktbov6URRmQpmK1uQi64pOxxbpRsOiX7svjoKkEw8KuV7+7+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Documents\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon\\ChatApp_LumbanKuizon.iOS\\ChatApp_LumbanKuizon.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
