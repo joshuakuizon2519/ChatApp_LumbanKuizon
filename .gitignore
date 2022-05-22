@@ -410,3 +410,6 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,xamarinstudio
 *.cache
 *.cache
+ChatApp_LumbanKuizon/ChatApp_LumbanKuizon.Android/obj/ChatApp_LumbanKuizon.Android.csproj.nuget.dgspec.json
+ChatApp_LumbanKuizon/ChatApp_LumbanKuizon.Android/obj/ChatApp_LumbanKuizon.Android.csproj.nuget.g.props
+*.targets
