@@ -4,6 +4,7 @@ using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using Firebase;
 
 namespace ChatApp_LumbanKuizon.Droid
 {
@@ -12,6 +13,8 @@ namespace ChatApp_LumbanKuizon.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            FirebaseApp.InitializeApp(this);
+
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);

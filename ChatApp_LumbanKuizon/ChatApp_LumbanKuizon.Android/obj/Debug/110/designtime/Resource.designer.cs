@@ -25,8 +25,179 @@ namespace ChatApp_LumbanKuizon.Droid
 		
 		public static void UpdateIdValues()
 		{
-<<<<<<< Updated upstream
-=======
+			global::Plugin.CloudFirestore.Resource.Attribute.alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.alpha;
+			global::Plugin.CloudFirestore.Resource.Attribute.font = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.font;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontProviderAuthority = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontProviderCerts = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontProviderFetchStrategy = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontProviderFetchTimeout = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontProviderPackage = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontProviderQuery = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontStyle = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontVariationSettings = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.CloudFirestore.Resource.Attribute.fontWeight = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.CloudFirestore.Resource.Attribute.ttcIndex = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.CloudFirestore.Resource.Color.notification_action_color_filter = global::ChatApp_LumbanKuizon.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.CloudFirestore.Resource.Color.notification_icon_bg_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.CloudFirestore.Resource.Color.ripple_material_light = global::ChatApp_LumbanKuizon.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.CloudFirestore.Resource.Color.secondary_text_default_material_light = global::ChatApp_LumbanKuizon.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.CloudFirestore.Resource.Dimension.compat_button_inset_horizontal_material = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.CloudFirestore.Resource.Dimension.compat_button_inset_vertical_material = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.CloudFirestore.Resource.Dimension.compat_button_padding_horizontal_material = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.CloudFirestore.Resource.Dimension.compat_button_padding_vertical_material = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.CloudFirestore.Resource.Dimension.compat_control_corner_material = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.CloudFirestore.Resource.Dimension.compat_notification_large_icon_max_height = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.CloudFirestore.Resource.Dimension.compat_notification_large_icon_max_width = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_action_icon_size = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_action_text_size = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_big_circle_margin = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_content_margin_start = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_large_icon_height = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_large_icon_width = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_main_column_padding_top = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_media_narrow_margin = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_right_icon_size = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_right_side_padding_top = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_small_icon_background_padding = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_small_icon_size_as_large = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_subtext_size = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_top_pad = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.CloudFirestore.Resource.Dimension.notification_top_pad_large_text = global::ChatApp_LumbanKuizon.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_action_background = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_bg = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_bg_low = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_bg_low_normal = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_bg_low_pressed = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_bg_normal = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_bg_normal_pressed = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_icon_background = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_template_icon_bg = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_template_icon_low_bg = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.CloudFirestore.Resource.Drawable.notification_tile_bg = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.CloudFirestore.Resource.Drawable.notify_panel_notification_icon_bg = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_action_clickable_span = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_0 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_1 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_10 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_11 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_12 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_13 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_14 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_15 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_16 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_17 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_18 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_19 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_2 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_20 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_21 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_22 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_23 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_24 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_25 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_26 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_27 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_28 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_29 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_3 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_30 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_31 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_4 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_5 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_6 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_7 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_8 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.CloudFirestore.Resource.Id.accessibility_custom_action_9 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Plugin.CloudFirestore.Resource.Id.actions = global::ChatApp_LumbanKuizon.Droid.Resource.Id.actions;
+			global::Plugin.CloudFirestore.Resource.Id.action_container = global::ChatApp_LumbanKuizon.Droid.Resource.Id.action_container;
+			global::Plugin.CloudFirestore.Resource.Id.action_divider = global::ChatApp_LumbanKuizon.Droid.Resource.Id.action_divider;
+			global::Plugin.CloudFirestore.Resource.Id.action_image = global::ChatApp_LumbanKuizon.Droid.Resource.Id.action_image;
+			global::Plugin.CloudFirestore.Resource.Id.action_text = global::ChatApp_LumbanKuizon.Droid.Resource.Id.action_text;
+			global::Plugin.CloudFirestore.Resource.Id.async = global::ChatApp_LumbanKuizon.Droid.Resource.Id.async;
+			global::Plugin.CloudFirestore.Resource.Id.auto = global::ChatApp_LumbanKuizon.Droid.Resource.Id.auto;
+			global::Plugin.CloudFirestore.Resource.Id.blocking = global::ChatApp_LumbanKuizon.Droid.Resource.Id.blocking;
+			global::Plugin.CloudFirestore.Resource.Id.chronometer = global::ChatApp_LumbanKuizon.Droid.Resource.Id.chronometer;
+			global::Plugin.CloudFirestore.Resource.Id.dialog_button = global::ChatApp_LumbanKuizon.Droid.Resource.Id.dialog_button;
+			global::Plugin.CloudFirestore.Resource.Id.forever = global::ChatApp_LumbanKuizon.Droid.Resource.Id.forever;
+			global::Plugin.CloudFirestore.Resource.Id.icon = global::ChatApp_LumbanKuizon.Droid.Resource.Id.icon;
+			global::Plugin.CloudFirestore.Resource.Id.icon_group = global::ChatApp_LumbanKuizon.Droid.Resource.Id.icon_group;
+			global::Plugin.CloudFirestore.Resource.Id.info = global::ChatApp_LumbanKuizon.Droid.Resource.Id.info;
+			global::Plugin.CloudFirestore.Resource.Id.italic = global::ChatApp_LumbanKuizon.Droid.Resource.Id.italic;
+			global::Plugin.CloudFirestore.Resource.Id.line1 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.line1;
+			global::Plugin.CloudFirestore.Resource.Id.line3 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.line3;
+			global::Plugin.CloudFirestore.Resource.Id.none = global::ChatApp_LumbanKuizon.Droid.Resource.Id.none;
+			global::Plugin.CloudFirestore.Resource.Id.normal = global::ChatApp_LumbanKuizon.Droid.Resource.Id.normal;
+			global::Plugin.CloudFirestore.Resource.Id.notification_background = global::ChatApp_LumbanKuizon.Droid.Resource.Id.notification_background;
+			global::Plugin.CloudFirestore.Resource.Id.notification_main_column = global::ChatApp_LumbanKuizon.Droid.Resource.Id.notification_main_column;
+			global::Plugin.CloudFirestore.Resource.Id.notification_main_column_container = global::ChatApp_LumbanKuizon.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.CloudFirestore.Resource.Id.right_icon = global::ChatApp_LumbanKuizon.Droid.Resource.Id.right_icon;
+			global::Plugin.CloudFirestore.Resource.Id.right_side = global::ChatApp_LumbanKuizon.Droid.Resource.Id.right_side;
+			global::Plugin.CloudFirestore.Resource.Id.tag_accessibility_actions = global::ChatApp_LumbanKuizon.Droid.Resource.Id.tag_accessibility_actions;
+			global::Plugin.CloudFirestore.Resource.Id.tag_accessibility_clickable_spans = global::ChatApp_LumbanKuizon.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.CloudFirestore.Resource.Id.tag_accessibility_heading = global::ChatApp_LumbanKuizon.Droid.Resource.Id.tag_accessibility_heading;
+			global::Plugin.CloudFirestore.Resource.Id.tag_accessibility_pane_title = global::ChatApp_LumbanKuizon.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.CloudFirestore.Resource.Id.tag_screen_reader_focusable = global::ChatApp_LumbanKuizon.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Plugin.CloudFirestore.Resource.Id.tag_transition_group = global::ChatApp_LumbanKuizon.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.CloudFirestore.Resource.Id.tag_unhandled_key_event_manager = global::ChatApp_LumbanKuizon.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.CloudFirestore.Resource.Id.tag_unhandled_key_listeners = global::ChatApp_LumbanKuizon.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.CloudFirestore.Resource.Id.text = global::ChatApp_LumbanKuizon.Droid.Resource.Id.text;
+			global::Plugin.CloudFirestore.Resource.Id.text2 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.text2;
+			global::Plugin.CloudFirestore.Resource.Id.time = global::ChatApp_LumbanKuizon.Droid.Resource.Id.time;
+			global::Plugin.CloudFirestore.Resource.Id.title = global::ChatApp_LumbanKuizon.Droid.Resource.Id.title;
+			global::Plugin.CloudFirestore.Resource.Integer.status_bar_notification_info_maxnum = global::ChatApp_LumbanKuizon.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.CloudFirestore.Resource.Layout.custom_dialog = global::ChatApp_LumbanKuizon.Droid.Resource.Layout.custom_dialog;
+			global::Plugin.CloudFirestore.Resource.Layout.notification_action = global::ChatApp_LumbanKuizon.Droid.Resource.Layout.notification_action;
+			global::Plugin.CloudFirestore.Resource.Layout.notification_action_tombstone = global::ChatApp_LumbanKuizon.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.CloudFirestore.Resource.Layout.notification_template_custom_big = global::ChatApp_LumbanKuizon.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.CloudFirestore.Resource.Layout.notification_template_icon_group = global::ChatApp_LumbanKuizon.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.CloudFirestore.Resource.Layout.notification_template_part_chronometer = global::ChatApp_LumbanKuizon.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.CloudFirestore.Resource.Layout.notification_template_part_time = global::ChatApp_LumbanKuizon.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.CloudFirestore.Resource.String.status_bar_notification_info_overflow = global::ChatApp_LumbanKuizon.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.CloudFirestore.Resource.Style.TextAppearance_Compat_Notification = global::ChatApp_LumbanKuizon.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.CloudFirestore.Resource.Style.TextAppearance_Compat_Notification_Info = global::ChatApp_LumbanKuizon.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.CloudFirestore.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ChatApp_LumbanKuizon.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.CloudFirestore.Resource.Style.TextAppearance_Compat_Notification_Time = global::ChatApp_LumbanKuizon.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.CloudFirestore.Resource.Style.TextAppearance_Compat_Notification_Title = global::ChatApp_LumbanKuizon.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.CloudFirestore.Resource.Style.Widget_Compat_NotificationActionContainer = global::ChatApp_LumbanKuizon.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.CloudFirestore.Resource.Style.Widget_Compat_NotificationActionText = global::ChatApp_LumbanKuizon.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.CloudFirestore.Resource.Styleable.ColorStateListItem = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.CloudFirestore.Resource.Styleable.ColorStateListItem_alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.CloudFirestore.Resource.Styleable.ColorStateListItem_android_alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.CloudFirestore.Resource.Styleable.ColorStateListItem_android_color = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamily = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_android_font = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_font = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_fontStyle = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_fontWeight = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamilyFont_ttcIndex = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamily_fontProviderAuthority = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamily_fontProviderCerts = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamily_fontProviderPackage = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.CloudFirestore.Resource.Styleable.FontFamily_fontProviderQuery = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColorItem = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColorItem_android_color = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColorItem_android_offset = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_centerColor = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_centerX = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_centerY = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_endColor = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_endX = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_endY = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_gradientRadius = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_startColor = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_startX = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_startY = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_tileMode = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.CloudFirestore.Resource.Styleable.GradientColor_android_type = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.fontProviderAuthority;
@@ -249,13 +420,7 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.ExitToRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_close_enter = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_close_enter;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_close_exit = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_close_exit;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fade_enter = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_fade_enter;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fade_exit = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_open_enter = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_open_enter;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_open_exit = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_open_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_in = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_out = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_card_lowers_interpolator = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
@@ -266,7 +431,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_card_state_list_anim = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_chip_state_list_anim = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_chip_state_list_anim;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_change_size_motion_spec = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_extended_fab_change_size_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_state_list_animator = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
@@ -933,7 +1097,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.yearStyle = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.yearStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.yearTodayStyle = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.yearTodayStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::ChatApp_LumbanKuizon.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::ChatApp_LumbanKuizon.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ChatApp_LumbanKuizon.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::ChatApp_LumbanKuizon.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
@@ -1058,10 +1221,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_inactive_tick_marks_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_inactive_track_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.material_slider_inactive_track_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_thumb_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.material_slider_thumb_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_ripple_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_bg_color_selector = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_ripple_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
@@ -1076,7 +1235,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_card_view_ripple = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_background_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_close_icon_tint = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_close_icon_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_ripple_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_surface_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_text_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_text_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_background_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_choice_chip_background_color;
@@ -1515,12 +1673,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_search_api_material = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_16dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_36dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_48dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_item_background_holo_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_item_background_holo_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_item_background_holo_light = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_item_background_holo_light;
@@ -1561,12 +1713,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_material = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_cursor_material = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_vector_test = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_vector_test;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_hide_password = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.avd_hide_password;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_show_password = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.avd_show_password;
@@ -1578,7 +1724,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_on_mtrl = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.btn_radio_on_mtrl;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_bottom_navigation_item_background = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_fab_background = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.design_fab_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.design_ic_visibility;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility_off = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.design_ic_visibility_off;
@@ -1760,7 +1905,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.italic = global::ChatApp_LumbanKuizon.Droid.Resource.Id.italic;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.item_touch_helper_previous_elevation = global::ChatApp_LumbanKuizon.Droid.Resource.Id.item_touch_helper_previous_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.labeled = global::ChatApp_LumbanKuizon.Droid.Resource.Id.labeled;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.largeLabel = global::ChatApp_LumbanKuizon.Droid.Resource.Id.largeLabel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.left = global::ChatApp_LumbanKuizon.Droid.Resource.Id.left;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.line1 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.line1;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.line3 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.line3;
@@ -1861,7 +2005,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.skipCollapsed = global::ChatApp_LumbanKuizon.Droid.Resource.Id.skipCollapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.slide = global::ChatApp_LumbanKuizon.Droid.Resource.Id.slide;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.sliding_tabs = global::ChatApp_LumbanKuizon.Droid.Resource.Id.sliding_tabs;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.smallLabel = global::ChatApp_LumbanKuizon.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_action = global::ChatApp_LumbanKuizon.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_text = global::ChatApp_LumbanKuizon.Droid.Resource.Id.snackbar_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snap = global::ChatApp_LumbanKuizon.Droid.Resource.Id.snap;
@@ -2589,7 +2732,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
@@ -3140,18 +3282,7 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_backgroundTint = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_elevation = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemRippleColor = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_menu = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
@@ -3874,13 +4005,7 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.ExitToRight;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_close_enter = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_close_enter;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_close_exit = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_close_exit;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fade_enter = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_fade_enter;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fade_exit = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fast_out_extra_slow_in = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_open_enter = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_open_enter;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_open_exit = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.fragment_open_exit;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_in = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_out = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_card_lowers_interpolator = global::ChatApp_LumbanKuizon.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
@@ -3891,7 +4016,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_card_state_list_anim = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_chip_state_list_anim = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_chip_state_list_anim;
-			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_change_size_motion_spec = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_extended_fab_change_size_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_state_list_animator = global::ChatApp_LumbanKuizon.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
@@ -4558,7 +4682,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.yearStyle = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.yearStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.yearTodayStyle = global::ChatApp_LumbanKuizon.Droid.Resource.Attribute.yearTodayStyle;
 			global::Xamarin.Forms.Platform.Resource.Boolean.abc_action_bar_embed_tabs = global::ChatApp_LumbanKuizon.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Xamarin.Forms.Platform.Resource.Boolean.abc_allow_stacked_button_bar = global::ChatApp_LumbanKuizon.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Xamarin.Forms.Platform.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ChatApp_LumbanKuizon.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
 			global::Xamarin.Forms.Platform.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::ChatApp_LumbanKuizon.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
@@ -4683,10 +4806,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.material_slider_inactive_tick_marks_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
 			global::Xamarin.Forms.Platform.Resource.Color.material_slider_inactive_track_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.material_slider_inactive_track_color;
 			global::Xamarin.Forms.Platform.Resource.Color.material_slider_thumb_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.material_slider_thumb_color;
-			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
-			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
-			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_item_tint = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
-			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_ripple_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_bg_color_selector = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_ripple_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_stroke_color_selector = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
@@ -4701,7 +4820,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_card_view_ripple = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_background_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_close_icon_tint = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_close_icon_tint;
-			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_ripple_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_surface_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_text_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_chip_text_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_background_color = global::ChatApp_LumbanKuizon.Droid.Resource.Color.mtrl_choice_chip_background_color;
@@ -5140,12 +5258,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_search_api_material = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_star_black_16dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_star_black_36dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_star_black_48dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_star_half_black_16dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_star_half_black_36dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_star_half_black_48dp = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_ic_voice_search_api_material = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_item_background_holo_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_item_background_holo_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_item_background_holo_light = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_item_background_holo_light;
@@ -5186,12 +5298,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_textfield_search_material = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_text_cursor_material = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Xamarin.Forms.Platform.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_vector_test = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.abc_vector_test;
 			global::Xamarin.Forms.Platform.Resource.Drawable.avd_hide_password = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.avd_hide_password;
 			global::Xamarin.Forms.Platform.Resource.Drawable.avd_show_password = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.avd_show_password;
@@ -5203,7 +5309,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
 			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_on_mtrl = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.btn_radio_on_mtrl;
 			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Xamarin.Forms.Platform.Resource.Drawable.design_bottom_navigation_item_background = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_fab_background = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.design_fab_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_ic_visibility = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.design_ic_visibility;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_ic_visibility_off = global::ChatApp_LumbanKuizon.Droid.Resource.Drawable.design_ic_visibility_off;
@@ -5385,7 +5490,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.italic = global::ChatApp_LumbanKuizon.Droid.Resource.Id.italic;
 			global::Xamarin.Forms.Platform.Resource.Id.item_touch_helper_previous_elevation = global::ChatApp_LumbanKuizon.Droid.Resource.Id.item_touch_helper_previous_elevation;
 			global::Xamarin.Forms.Platform.Resource.Id.labeled = global::ChatApp_LumbanKuizon.Droid.Resource.Id.labeled;
-			global::Xamarin.Forms.Platform.Resource.Id.largeLabel = global::ChatApp_LumbanKuizon.Droid.Resource.Id.largeLabel;
 			global::Xamarin.Forms.Platform.Resource.Id.left = global::ChatApp_LumbanKuizon.Droid.Resource.Id.left;
 			global::Xamarin.Forms.Platform.Resource.Id.line1 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.line1;
 			global::Xamarin.Forms.Platform.Resource.Id.line3 = global::ChatApp_LumbanKuizon.Droid.Resource.Id.line3;
@@ -5486,7 +5590,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.skipCollapsed = global::ChatApp_LumbanKuizon.Droid.Resource.Id.skipCollapsed;
 			global::Xamarin.Forms.Platform.Resource.Id.slide = global::ChatApp_LumbanKuizon.Droid.Resource.Id.slide;
 			global::Xamarin.Forms.Platform.Resource.Id.sliding_tabs = global::ChatApp_LumbanKuizon.Droid.Resource.Id.sliding_tabs;
-			global::Xamarin.Forms.Platform.Resource.Id.smallLabel = global::ChatApp_LumbanKuizon.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_action = global::ChatApp_LumbanKuizon.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_text = global::ChatApp_LumbanKuizon.Droid.Resource.Id.snackbar_text;
 			global::Xamarin.Forms.Platform.Resource.Id.snap = global::ChatApp_LumbanKuizon.Droid.Resource.Id.snap;
@@ -6214,7 +6317,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::ChatApp_LumbanKuizon.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
@@ -6765,18 +6867,7 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_backgroundTint = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_elevation = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemBackground = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemIconSize = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemIconTint = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemRippleColor = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextColor = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
-			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_menu = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::ChatApp_LumbanKuizon.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
@@ -7467,7 +7558,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::ChatApp_LumbanKuizon.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::ChatApp_LumbanKuizon.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::ChatApp_LumbanKuizon.Droid.Resource.Xml.standalone_badge_offset;
->>>>>>> Stashed changes
 		}
 		
 		public partial class Animation
@@ -7558,18 +7648,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			public const int design_snackbar_out = 2130771995;
 			
 			// aapt resource value: 0x7F01001C
-<<<<<<< Updated upstream
-			public const int enterfromleft = 2130771996;
-			
-			// aapt resource value: 0x7F01001D
-			public const int enterfromright = 2130771997;
-			
-			// aapt resource value: 0x7F01001E
-			public const int exittoleft = 2130771998;
-			
-			// aapt resource value: 0x7F01001F
-			public const int exittoright = 2130771999;
-=======
 			public const int EnterFromLeft = 2130771996;
 			
 			// aapt resource value: 0x7F01001D
@@ -7580,7 +7658,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			
 			// aapt resource value: 0x7F01001F
 			public const int ExitToRight = 2130771999;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F010020
 			public const int fragment_close_enter = 2130772000;
@@ -11678,11 +11755,7 @@ namespace ChatApp_LumbanKuizon.Droid
 			public const int btn_radio_on_to_off_mtrl_animation = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-<<<<<<< Updated upstream
-			public const int ChatIcon = 2131165286;
-=======
 			public const int chaticon = 2131165286;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F070067
 			public const int design_bottom_navigation_item_background = 2131165287;
@@ -11826,17 +11899,10 @@ namespace ChatApp_LumbanKuizon.Droid
 			public const int notify_panel_notification_icon_bg = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-<<<<<<< Updated upstream
-			public const int ProfileIcon = 2131165334;
-			
-			// aapt resource value: 0x7F070097
-			public const int Profilepic = 2131165335;
-=======
 			public const int profileicon = 2131165334;
 			
 			// aapt resource value: 0x7F070097
 			public const int profilepic = 2131165335;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F070098
 			public const int show = 2131165336;
@@ -13043,11 +13109,7 @@ namespace ChatApp_LumbanKuizon.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-<<<<<<< Updated upstream
-			public const int bottomtablayout = 2131427356;
-=======
 			public const int BottomTabLayout = 2131427356;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F0B001D
 			public const int browser_actions_context_menu_page = 2131427357;
@@ -13104,15 +13166,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			public const int design_text_input_start_icon = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-<<<<<<< Updated upstream
-			public const int fallbacktabbardonotuse = 2131427375;
-			
-			// aapt resource value: 0x7F0B0030
-			public const int fallbacktoolbardonotuse = 2131427376;
-			
-			// aapt resource value: 0x7F0B0031
-			public const int flyoutcontent = 2131427377;
-=======
 			public const int FallbackTabbarDoNotUse = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
@@ -13120,7 +13173,6 @@ namespace ChatApp_LumbanKuizon.Droid
 			
 			// aapt resource value: 0x7F0B0031
 			public const int FlyoutContent = 2131427377;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F0B0032
 			public const int mtrl_alert_dialog = 2131427378;
@@ -13252,11 +13304,7 @@ namespace ChatApp_LumbanKuizon.Droid
 			public const int notification_template_part_time = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-<<<<<<< Updated upstream
-			public const int rootlayout = 2131427421;
-=======
 			public const int RootLayout = 2131427421;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F0B005E
 			public const int select_dialog_item_material = 2131427422;
@@ -13268,21 +13316,13 @@ namespace ChatApp_LumbanKuizon.Droid
 			public const int select_dialog_singlechoice_material = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-<<<<<<< Updated upstream
-			public const int shellcontent = 2131427425;
-=======
 			public const int ShellContent = 2131427425;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F0B0062
 			public const int support_simple_spinner_dropdown_item = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-<<<<<<< Updated upstream
-			public const int tabbar = 2131427427;
-=======
 			public const int Tabbar = 2131427427;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F0B0064
 			public const int test_action_chip = 2131427428;
@@ -13327,11 +13367,7 @@ namespace ChatApp_LumbanKuizon.Droid
 			public const int text_view_with_theme_line_height = 2131427440;
 			
 			// aapt resource value: 0x7F0B0072
-<<<<<<< Updated upstream
-			public const int toolbar = 2131427442;
-=======
 			public const int Toolbar = 2131427442;
->>>>>>> Stashed changes
 			
 			static Layout()
 			{
