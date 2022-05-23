@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace ChatApp_LumbanKuizon.Models
 {
-    internal class FirebaseAuthResponseModel
+    public class FirebaseAuthResponseModel : INotifyPropertyChanged
     {
         bool _Status { get; set; }
         public bool Status { get { return _Status; } set { _Status = value; OnPropertyChanged(nameof(Status)); } }
