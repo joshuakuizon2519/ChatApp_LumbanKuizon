@@ -8,7 +8,8 @@ using Xamarin.Forms;
 using System.Text.RegularExpressions;
 using ChatApp_LumbanKuizon.Pages;
 using Xamarin.Forms.Xaml;
-
+using ChatApp_LumbanKuizon.Models;
+using ChatApp_LumbanKuizon.DependencyServices;
 
 namespace ChatApp_LumbanKuizon
 {
@@ -65,6 +66,40 @@ namespace ChatApp_LumbanKuizon
             if (tapCount % 1 == 0)
             {
                 await Navigation.PushAsync(new ChatApp_LumbanKuizon.Pages.ForgotPassw());
+            }
+        }
+
+        private async void Button_clicked(object sender, EventArgs e)
+        {
+            if(string.IsNullOrEmpty(EntryEmail.Text) && string.IsNullOrEmpty(EntryPassword.Text){
+                bool retryBool = await DisplayAlert("Error", "Missing Field/s, Retry", "Yes", "No");
+                if (retryBool)
+                {
+                    EntryEmail.Text = string.Empty;
+                    EntryPassword.Text = string.Empty;
+                    EntryEmail.Focus();
+                }
+            }
+            else
+            {
+                //loading.isVisible = true;
+                FirebaseAuthResponseModel res = new FirebaseAuthResponseModel() { };
+                res = await DependencyService.Get<iFirebaseAuth>().LoginWithEmailPassword(EntryEmail.Text, EntryPassword.Text);
+
+                if(res.Status == true)
+                {
+                    Application.Current.MainPage = new TabbedMain();
+                }
+                else
+                {
+                    bool retryBool = await DisplayAlert("Error", res.Response + " Retry?", "Yes", "No");
+                    if (retryBool)
+                    {
+                        EntryEmail.Text = string.Empty;
+                        EntryPassword.Text = string.Empty;
+                        EntryEmail.Focus();
+                    }
+                }
             }
         }
        
