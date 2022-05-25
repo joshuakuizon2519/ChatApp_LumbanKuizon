@@ -1,4 +1,8 @@
-﻿using System;
+﻿using ChatApp_LumbanKuizon.DependencyServices;
+using ChatApp_LumbanKuizon.Helpers;
+using ChatApp_LumbanKuizon.Models;
+using Plugin.CloudFirestore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,6 +36,48 @@ namespace ChatApp_LumbanKuizon.Pages
             if (SignUpPassword.Text != SignUpConfirmPassword.Text)
             {
                 await DisplayAlert("Error", "Passwords should Match", "Okay");
+            }
+        }
+
+        private async void Signup_Clicked (Object sender, EventArgs e)
+        {
+            if(SignUpEmail.Text.Length == 0 || SignUpPassword.Text.Length == 0 || SignUpConfirmPassword.Text.Length == 0)
+            {
+                await DisplayAlert("Error", "Missing Field/s", "Okay");
+            }
+            else
+            {
+                if(SignUpPassword.Text != SignUpConfirmPassword.Text)
+                {
+                    await DisplayAlert("Error", "Passwords don't match", "Okay");
+                    SignUpConfirmPassword.Text = String.Empty;
+                    SignUpConfirmPassword.Focus();
+                }
+                else
+                {
+                    FirebaseAuthResponseModel res = new FirebaseAuthResponseModel() { };
+                    res = await DependencyService.Get<iFirebaseAuth>().SignUpWithEmailPassword(SignUpUsername.Text, SignUpEmail.Text, SignUpPassword.Text);
+
+                    if(res.Status == true)
+                    {
+                        try
+                        {
+                            await CrossCloudFirestore.Current.Instance.GetCollection("users").GetDocument(dataClass.loggedInUser.uid).SetDataAsync(dataClass.loggedInUser);
+
+                            await DisplayAlert("Success", res.Response, "Okay");
+                            await Navigation.PushModalAsync(true);
+                        }
+                        catch(Exception ex)
+                        {
+                            await DisplayAlert("Error", ex.Message, "Okay");
+                        }
+                    }
+                    else
+                    {
+                        await DisplayAlert("Success", res.Response, "Okay");
+                    }
+                    //loading.IsVisible = false;
+                }
             }
         }
 
