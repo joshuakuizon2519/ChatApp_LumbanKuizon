@@ -71,7 +71,7 @@ namespace ChatApp_LumbanKuizon
 
         private async void Button_clicked(object sender, EventArgs e)
         {
-            if(string.IsNullOrEmpty(EntryEmail.Text) && string.IsNullOrEmpty(EntryPassword.Text){
+            if(string.IsNullOrEmpty(EntryEmail.Text) && string.IsNullOrEmpty(EntryPassword.Text)){
                 bool retryBool = await DisplayAlert("Error", "Missing Field/s, Retry", "Yes", "No");
                 if (retryBool)
                 {

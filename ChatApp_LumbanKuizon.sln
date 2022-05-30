@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp_LumbanKuizon.Androi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp_LumbanKuizon.iOS", "ChatApp_LumbanKuizon\ChatApp_LumbanKuizon.iOS\ChatApp_LumbanKuizon.iOS.csproj", "{C905CE48-8DDB-47F9-AD3A-85FA829BCA50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp_LumbanKuizon", "ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon.csproj", "{37C71F24-259B-4984-B63A-50D2DC4619BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApp_LumbanKuizon", "ChatApp_LumbanKuizon\ChatApp_LumbanKuizon\ChatApp_LumbanKuizon.csproj", "{37C71F24-259B-4984-B63A-50D2DC4619BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
