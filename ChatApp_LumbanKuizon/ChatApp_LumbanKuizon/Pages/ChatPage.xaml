@@ -11,7 +11,70 @@
                         TextColor="Black"
                         TextTransform="Lowercase"
                         FontAttributes="Italic" />
+            <ListView HorizontalOptions="Fill" VerticalOptions="Fill" HasUnevenRows="True" x:Name="contactsList" ItemTapped="ContactsList_ItemTapped"
+                  SeparatorVisibility="None" Margin="5,5,5,0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout HeightRequest="60">
+                                <Frame Padding="0" CornerRadius="5" IsClippedToBounds="True" HasShadow="False" BorderColor="LightBlue" HorizontalOptions="Fill" VerticalOptions="FillAndExpand"
+                                   Margin="10,5,10,5">
+                                    <Frame.Triggers>
+                                        <DataTrigger TargetType="Frame" Binding="{Binding contactID, Converter={StaticResource isOwnerConverter}}" Value="True">
+                                            <Setter Property="BorderColor" Value="LightGreen"/>
+                                        </DataTrigger>
+                                    </Frame.Triggers>
+                                    <Grid RowSpacing="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="5*"/>
+                                            <RowDefinition Height="5*"/>
+                                        </Grid.RowDefinitions>
+                                        <Label Text="{Binding contactName[0]}" Margin="5,0,0,0" Grid.Row="0" Grid.Column="0"
+                                           HorizontalOptions="Fill" VerticalOptions="Fill" HorizontalTextAlignment="Start" VerticalTextAlignment="End" FontSize="Large">
+                                            <Label.Triggers>
+                                                <DataTrigger TargetType="Label" Binding="{Binding contactID, Converter={StaticResource isOwnerConverter}}" Value="True">
+                                                    <Setter Property="Text" Value="{Binding contactName[1]}"/>
+                                                </DataTrigger>
+                                            </Label.Triggers>
+                                        </Label>
+                                        <Label Text="{Binding contactName[0]}" Margin="5,0,0,0" Grid.Row="1" Grid.Column="0"
+                                           HorizontalOptions="Fill" VerticalOptions="Fill" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" FontSize="Medium" >
+                                            <Label.Triggers>
+                                                <DataTrigger TargetType="Label" Binding="{Binding contactID, Converter={StaticResource isOwnerConverter}}" Value="True">
+                                                    <Setter Property="Text" Value="{Binding contactEmail[1]}"/>
+                                                </DataTrigger>
+                                            </Label.Triggers>
+                                        </Label>
+                                    </Grid>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
+        <ListView HorizontalOptions="Fill" VerticalOptions="Start" HasUnevenRows="true" x:Name="conversationListView" isVisible="False"
+                  SeparatorVisibility="None" Margin="5,0,5,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ContentView>
+                            <StackLayout BackgroundColor="LightBlue" Margin="5,5,30,5"
+                                         HorizontalOptions="Start">
+                                <StackLayout.Triggers>
+                                    <DataTrigger TargetType="StackLayout" Binding="{Binding ., Converter={StaticResource isViewerConverter}}" value="True">
+                                        <Setter Property="BackgroundColor" Value="LightGreen"/>
+                                        <Setter Property="HorizontalOptions" Value="End"/>
+                                        <Setter Property="Margin" Value="30,5,5,5"/>
+                                    </DataTrigger>
+                                </StackLayout.Triggers>
+                                <Label Text="{Binding message}" Margin="5,5,5,5"
+                                    HorizontalOptions="Start" HorizontalTextAlignment="Start" VerticalTextAlignment="End" FontSize="Body"/>
+                            </StackLayout>
+                        </ContentView>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
-
 </ContentPage>
